@@ -1,0 +1,1073 @@
+{
+ "schema": 1,
+ "extra_max": 3,
+ "text_max": 500,
+ "owner_max": 30,
+ "scopes": [
+  "non_contacts",
+  "everyone"
+ ],
+ "types": {
+  "solo2_ac": {
+   "name_he": "טכנאי מזגנים",
+   "en": "air-conditioning technician",
+   "questions": [
+    {
+     "id": "problem",
+     "text": "מה הבעיה במזגן?",
+     "default": "on",
+     "options": [
+      "לא מקרר",
+      "נוזל מים",
+      "רעש",
+      "התקנה חדשה"
+     ],
+     "locked": false
+    },
+    {
+     "id": "city",
+     "text": "באיזו עיר?",
+     "default": "on",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "urgency",
+     "text": "כמה זה דחוף?",
+     "default": "on",
+     "options": [
+      "היום",
+      "השבוע",
+      "לא דחוף"
+     ],
+     "locked": false
+    },
+    {
+     "id": "photo",
+     "text": "אפשר לשלוח כאן תמונה של מה שצריך, ואחריה לכתוב \"שלחתי\". אם אין תמונה, כתבו \"דלג\"",
+     "default": "off",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "name",
+     "text": "איך קוראים לך?",
+     "default": "on",
+     "options": [],
+     "locked": true
+    }
+   ],
+   "setup": [
+    "owner_name"
+   ],
+   "field_max": null
+  },
+  "solo2_beauty": {
+   "name_he": "יופי וטיפוח",
+   "en": "beauty and personal care",
+   "questions": [
+    {
+     "id": "treatment",
+     "text": "איזה טיפול מעניין אותך?",
+     "default": "on",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "times",
+     "text": "באילו ימים או שעות הכי נוח לך?",
+     "default": "on",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "event",
+     "text": "זה לקראת אירוע מסוים?",
+     "default": "off",
+     "options": [
+      "כן",
+      "סתם בשביל עצמי"
+     ],
+     "locked": false
+    },
+    {
+     "id": "photo",
+     "text": "יש תמונה של סגנון שאהבת? אפשר לשלוח כאן ואחריה לכתוב \"שלחתי\". אם אין, כתבו \"דלג\"",
+     "default": "off",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "first_time",
+     "text": "זו הפעם הראשונה שלך אצלנו?",
+     "default": "off",
+     "options": [
+      "כן",
+      "כבר הייתי"
+     ],
+     "locked": false
+    },
+    {
+     "id": "name",
+     "text": "איך קוראים לך?",
+     "default": "on",
+     "options": [],
+     "locked": true
+    }
+   ],
+   "setup": [
+    "owner_name"
+   ],
+   "field_max": null
+  },
+  "solo2_car": {
+   "name_he": "שירותי רכב",
+   "en": "car services",
+   "questions": [
+    {
+     "id": "service",
+     "text": "איזה שירות לרכב צריך?",
+     "default": "on",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "car",
+     "text": "מה סוג הרכב?",
+     "default": "on",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "area",
+     "text": "באיזה אזור?",
+     "default": "on",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "times",
+     "text": "מתי נוח לך?",
+     "default": "off",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "photo",
+     "text": "יש תמונה שיכולה לעזור? אפשר לשלוח כאן ואחריה לכתוב \"שלחתי\". אם אין, כתבו \"דלג\"",
+     "default": "off",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "name",
+     "text": "איך קוראים לך?",
+     "default": "on",
+     "options": [],
+     "locked": true
+    }
+   ],
+   "setup": [
+    "owner_name"
+   ],
+   "field_max": null
+  },
+  "solo2_catering": {
+   "name_he": "קייטרינג ועוגות",
+   "en": "catering and cakes",
+   "questions": [
+    {
+     "id": "event",
+     "text": "לאיזה אירוע?",
+     "default": "on",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "date",
+     "text": "לאיזה תאריך?",
+     "default": "on",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "people",
+     "text": "לכמה אנשים בערך?",
+     "default": "on",
+     "options": [
+      "עד 10",
+      "10 עד 30",
+      "מעל 30"
+     ],
+     "locked": false
+    },
+    {
+     "id": "city",
+     "text": "מאיזו עיר? (בשביל המשלוח)",
+     "default": "off",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "allergies",
+     "text": "יש רגישויות שחשוב שנדע?",
+     "default": "off",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "name",
+     "text": "איך קוראים לך?",
+     "default": "on",
+     "options": [],
+     "locked": true
+    }
+   ],
+   "setup": [
+    "owner_name"
+   ],
+   "field_max": null
+  },
+  "solo2_cleaning": {
+   "name_he": "ניקיון בתים ומשרדים",
+   "en": "home and office cleaning",
+   "questions": [
+    {
+     "id": "kind",
+     "text": "איזה ניקיון צריך?",
+     "default": "on",
+     "options": [
+      "בית",
+      "משרד",
+      "לפני או אחרי מעבר",
+      "אחר"
+     ],
+     "locked": false
+    },
+    {
+     "id": "city",
+     "text": "באיזו עיר?",
+     "default": "on",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "size",
+     "text": "כמה חדרים, או מה גודל המקום בערך?",
+     "default": "on",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "when",
+     "text": "מתי צריך את הניקיון?",
+     "default": "off",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "name",
+     "text": "איך קוראים לך?",
+     "default": "on",
+     "options": [],
+     "locked": true
+    }
+   ],
+   "setup": [
+    "owner_name"
+   ],
+   "field_max": null
+  },
+  "solo2_clinic": {
+   "name_he": "טיפול וקליניקה",
+   "en": "therapy and clinic",
+   "questions": [
+    {
+     "id": "service",
+     "text": "איזה סוג טיפול או ייעוץ מעניין אותך?",
+     "default": "on",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "for_whom",
+     "text": "הטיפול בשבילך או בשביל מישהו אחר?",
+     "default": "on",
+     "options": [
+      "בשבילי",
+      "בשביל הילד או הילדה",
+      "בשביל מישהו אחר"
+     ],
+     "locked": false
+    },
+    {
+     "id": "times",
+     "text": "מתי בדרך כלל נוח לך להגיע?",
+     "default": "on",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "where",
+     "text": "מעדיפים קליניקה או אונליין?",
+     "default": "off",
+     "options": [
+      "קליניקה",
+      "אונליין",
+      "לא משנה"
+     ],
+     "locked": false
+    },
+    {
+     "id": "before",
+     "text": "היית אצלנו בעבר?",
+     "default": "off",
+     "options": [
+      "כן",
+      "לא"
+     ],
+     "locked": false
+    },
+    {
+     "id": "name",
+     "text": "איך קוראים לך?",
+     "default": "on",
+     "options": [],
+     "locked": true
+    }
+   ],
+   "setup": [
+    "owner_name"
+   ],
+   "field_max": null
+  },
+  "solo2_driving": {
+   "name_he": "מורי נהיגה",
+   "en": "driving instructor",
+   "questions": [
+    {
+     "id": "license",
+     "text": "איזה שיעורי נהיגה מחפשים?",
+     "default": "on",
+     "options": [
+      "רכב אוטומט",
+      "רכב ידני",
+      "אופנוע",
+      "משהו אחר"
+     ],
+     "locked": false
+    },
+    {
+     "id": "area",
+     "text": "מאיזו עיר או שכונה נוח להתחיל?",
+     "default": "on",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "theory",
+     "text": "כבר עברת תאוריה?",
+     "default": "on",
+     "options": [
+      "כן",
+      "עדיין לא"
+     ],
+     "locked": false
+    },
+    {
+     "id": "times",
+     "text": "מתי בדרך כלל נוח לך ללמוד?",
+     "default": "off",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "for_whom",
+     "text": "השיעורים בשבילך או בשביל הבן או הבת?",
+     "default": "off",
+     "options": [
+      "בשבילי",
+      "בשביל הבן או הבת"
+     ],
+     "locked": false
+    },
+    {
+     "id": "name",
+     "text": "איך קוראים לך?",
+     "default": "on",
+     "options": [],
+     "locked": true
+    }
+   ],
+   "setup": [
+    "owner_name"
+   ],
+   "field_max": null
+  },
+  "solo2_garden": {
+   "name_he": "גינון",
+   "en": "gardening",
+   "questions": [
+    {
+     "id": "work",
+     "text": "איזו עבודה צריך?",
+     "default": "on",
+     "options": [
+      "תחזוקה קבועה",
+      "עבודה חד פעמית",
+      "תכנון גינה"
+     ],
+     "locked": false
+    },
+    {
+     "id": "city",
+     "text": "באיזו עיר?",
+     "default": "on",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "size",
+     "text": "מה גודל הגינה בערך?",
+     "default": "on",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "often",
+     "text": "כל כמה זמן? (לתחזוקה)",
+     "default": "off",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "name",
+     "text": "איך קוראים לך?",
+     "default": "on",
+     "options": [],
+     "locked": true
+    }
+   ],
+   "setup": [
+    "owner_name"
+   ],
+   "field_max": null
+  },
+  "solo2_general": {
+   "name_he": "עסק אחר",
+   "en": "any other business",
+   "questions": [
+    {
+     "id": "need",
+     "text": "במה אפשר לעזור?",
+     "default": "on",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "urgency",
+     "text": "כמה זה דחוף?",
+     "default": "on",
+     "options": [
+      "היום",
+      "בימים הקרובים",
+      "לא דחוף"
+     ],
+     "locked": false
+    },
+    {
+     "id": "times",
+     "text": "מתי נוח שנחזור אליך?",
+     "default": "on",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "area",
+     "text": "באיזה אזור צריך את השירות?",
+     "default": "off",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "name",
+     "text": "איך קוראים לך?",
+     "default": "on",
+     "options": [],
+     "locked": true
+    }
+   ],
+   "setup": [
+    "owner_name",
+    "field"
+   ],
+   "field_max": 40
+  },
+  "solo2_home": {
+   "name_he": "תיקונים ושיפוצים",
+   "en": "home repairs and renovations",
+   "questions": [
+    {
+     "id": "need",
+     "text": "מה צריך לתקן או לעשות?",
+     "default": "on",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "city",
+     "text": "באיזו עיר העבודה?",
+     "default": "on",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "urgency",
+     "text": "כמה זה דחוף?",
+     "default": "on",
+     "options": [
+      "ממש דחוף",
+      "היום או מחר",
+      "השבוע",
+      "לא דחוף"
+     ],
+     "locked": false
+    },
+    {
+     "id": "photo",
+     "text": "אפשר לשלוח כאן תמונה של מה שצריך, ואחריה לכתוב \"שלחתי\". אם אין תמונה, כתבו \"דלג\"",
+     "default": "on",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "times",
+     "text": "מתי נוח שנחזור אליך?",
+     "default": "off",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "name",
+     "text": "איך קוראים לך?",
+     "default": "on",
+     "options": [],
+     "locked": true
+    }
+   ],
+   "setup": [
+    "owner_name"
+   ],
+   "field_max": null
+  },
+  "solo2_law": {
+   "name_he": "עורכי דין וייעוץ",
+   "en": "lawyers and consulting",
+   "questions": [
+    {
+     "id": "topic",
+     "text": "באיזה נושא הפנייה?",
+     "default": "on",
+     "options": [
+      "משפחה",
+      "מקרקעין",
+      "עבודה",
+      "אחר"
+     ],
+     "locked": false
+    },
+    {
+     "id": "times",
+     "text": "מתי נוח שנחזור אליך?",
+     "default": "on",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "deadline",
+     "text": "יש תאריך חשוב שמתקרב?",
+     "default": "off",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "meeting",
+     "text": "מעדיפים פגישה או שיחת טלפון?",
+     "default": "off",
+     "options": [
+      "פגישה",
+      "טלפון"
+     ],
+     "locked": false
+    },
+    {
+     "id": "name",
+     "text": "איך קוראים לך?",
+     "default": "on",
+     "options": [],
+     "locked": true
+    }
+   ],
+   "setup": [
+    "owner_name"
+   ],
+   "field_max": null
+  },
+  "solo2_moving": {
+   "name_he": "הובלות",
+   "en": "moving",
+   "questions": [
+    {
+     "id": "what",
+     "text": "מה מובילים?",
+     "default": "on",
+     "options": [
+      "דירה",
+      "כמה פריטים",
+      "משרד"
+     ],
+     "locked": false
+    },
+    {
+     "id": "route",
+     "text": "מאיפה ולאן?",
+     "default": "on",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "date",
+     "text": "לאיזה תאריך?",
+     "default": "on",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "stairs",
+     "text": "יש קומות בלי מעלית?",
+     "default": "off",
+     "options": [
+      "כן",
+      "לא"
+     ],
+     "locked": false
+    },
+    {
+     "id": "name",
+     "text": "איך קוראים לך?",
+     "default": "on",
+     "options": [],
+     "locked": true
+    }
+   ],
+   "setup": [
+    "owner_name"
+   ],
+   "field_max": null
+  },
+  "solo2_music": {
+   "name_he": "מורים למוזיקה",
+   "en": "music teacher",
+   "questions": [
+    {
+     "id": "instrument",
+     "text": "איזה כלי נגינה מעניין אותך?",
+     "default": "on",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "age",
+     "text": "השיעורים לילד או למבוגר?",
+     "default": "on",
+     "options": [
+      "ילד",
+      "מבוגר"
+     ],
+     "locked": false
+    },
+    {
+     "id": "experience",
+     "text": "יש כבר ניסיון?",
+     "default": "on",
+     "options": [
+      "מתחיל/ה",
+      "קצת",
+      "מנגן/ת"
+     ],
+     "locked": false
+    },
+    {
+     "id": "times",
+     "text": "מתי נוח לך לשיעורים?",
+     "default": "off",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "name",
+     "text": "איך קוראים לך?",
+     "default": "on",
+     "options": [],
+     "locked": true
+    }
+   ],
+   "setup": [
+    "owner_name"
+   ],
+   "field_max": null
+  },
+  "solo2_pest": {
+   "name_he": "הדברה",
+   "en": "pest control",
+   "questions": [
+    {
+     "id": "pest",
+     "text": "מה המזיק?",
+     "default": "on",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "city",
+     "text": "באיזו עיר?",
+     "default": "on",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "property",
+     "text": "איזה נכס?",
+     "default": "on",
+     "options": [
+      "דירה",
+      "בית פרטי",
+      "עסק"
+     ],
+     "locked": false
+    },
+    {
+     "id": "urgency",
+     "text": "כמה זה דחוף?",
+     "default": "off",
+     "options": [
+      "היום",
+      "השבוע",
+      "לא דחוף"
+     ],
+     "locked": false
+    },
+    {
+     "id": "name",
+     "text": "איך קוראים לך?",
+     "default": "on",
+     "options": [],
+     "locked": true
+    }
+   ],
+   "setup": [
+    "owner_name"
+   ],
+   "field_max": null
+  },
+  "solo2_pets": {
+   "name_he": "טיפוח חיות מחמד",
+   "en": "pet grooming",
+   "questions": [
+    {
+     "id": "treatment",
+     "text": "איזה טיפול צריך?",
+     "default": "on",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "pet",
+     "text": "איזו חיה, ובאיזה גודל בערך?",
+     "default": "on",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "times",
+     "text": "מתי נוח לך?",
+     "default": "on",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "first_time",
+     "text": "פעם ראשונה אצלנו?",
+     "default": "off",
+     "options": [
+      "כן",
+      "כבר הייתי"
+     ],
+     "locked": false
+    },
+    {
+     "id": "name",
+     "text": "איך קוראים לך?",
+     "default": "on",
+     "options": [],
+     "locked": true
+    }
+   ],
+   "setup": [
+    "owner_name"
+   ],
+   "field_max": null
+  },
+  "solo2_photo": {
+   "name_he": "צילום ואירועים",
+   "en": "photography and events",
+   "questions": [
+    {
+     "id": "kind",
+     "text": "איזה צילום מחפשים?",
+     "default": "on",
+     "options": [
+      "חתונה או אירוע",
+      "משפחה או ילדים",
+      "תדמית או עסק",
+      "משהו אחר"
+     ],
+     "locked": false
+    },
+    {
+     "id": "date",
+     "text": "יש כבר תאריך? אם כן, כתבו אותו",
+     "default": "on",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "place",
+     "text": "איפה הצילום?",
+     "default": "on",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "hours",
+     "text": "כמה שעות צילום בערך?",
+     "default": "off",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "guests",
+     "text": "כמה אורחים בערך?",
+     "default": "off",
+     "options": [
+      "עד 50",
+      "50 עד 200",
+      "מעל 200"
+     ],
+     "locked": false
+    },
+    {
+     "id": "name",
+     "text": "איך קוראים לך?",
+     "default": "on",
+     "options": [],
+     "locked": true
+    }
+   ],
+   "setup": [
+    "owner_name"
+   ],
+   "field_max": null
+  },
+  "solo2_trainer": {
+   "name_he": "מאמני כושר",
+   "en": "personal trainer",
+   "questions": [
+    {
+     "id": "goal",
+     "text": "מה הכי חשוב לך להשיג?",
+     "default": "on",
+     "options": [
+      "לרדת במשקל",
+      "להתחזק",
+      "לחזור לכושר",
+      "כושר כללי"
+     ],
+     "locked": false
+    },
+    {
+     "id": "kind",
+     "text": "איזה אימון מעניין אותך?",
+     "default": "on",
+     "options": [
+      "אישי",
+      "זוגי",
+      "קבוצה קטנה",
+      "עוד לא החלטתי"
+     ],
+     "locked": false
+    },
+    {
+     "id": "times",
+     "text": "מתי הכי נוח לך להתאמן?",
+     "default": "on",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "per_week",
+     "text": "כמה פעמים בשבוע היית רוצה?",
+     "default": "off",
+     "options": [
+      "פעם אחת",
+      "פעמיים",
+      "שלוש או יותר"
+     ],
+     "locked": false
+    },
+    {
+     "id": "notes",
+     "text": "יש משהו שחשוב שהמאמן ידע לפני שמתחילים?",
+     "default": "off",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "name",
+     "text": "איך קוראים לך?",
+     "default": "on",
+     "options": [],
+     "locked": true
+    }
+   ],
+   "setup": [
+    "owner_name"
+   ],
+   "field_max": null
+  },
+  "solo2_tutor": {
+   "name_he": "מורים פרטיים",
+   "en": "private tutor",
+   "questions": [
+    {
+     "id": "subject",
+     "text": "באיזה מקצוע צריך עזרה?",
+     "default": "on",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "grade",
+     "text": "לאיזו כיתה או גיל?",
+     "default": "on",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "times",
+     "text": "מתי נוח לכם ללמוד?",
+     "default": "on",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "format",
+     "text": "איך מעדיפים ללמוד?",
+     "default": "off",
+     "options": [
+      "פנים אל פנים",
+      "אונליין",
+      "לא משנה"
+     ],
+     "locked": false
+    },
+    {
+     "id": "exam",
+     "text": "יש מבחן או בגרות שמתקרבים?",
+     "default": "off",
+     "options": [
+      "כן",
+      "לא, למידה שוטפת"
+     ],
+     "locked": false
+    },
+    {
+     "id": "name",
+     "text": "איך קוראים לך?",
+     "default": "on",
+     "options": [],
+     "locked": true
+    }
+   ],
+   "setup": [
+    "owner_name"
+   ],
+   "field_max": null
+  },
+  "solo2_yoga": {
+   "name_he": "יוגה ופילאטיס",
+   "en": "yoga and pilates",
+   "questions": [
+    {
+     "id": "lesson",
+     "text": "איזה שיעור מעניין אותך?",
+     "default": "on",
+     "options": [
+      "יוגה",
+      "פילאטיס",
+      "שניהם",
+      "אשמח להכוונה"
+     ],
+     "locked": false
+    },
+    {
+     "id": "experience",
+     "text": "יש לך כבר ניסיון?",
+     "default": "on",
+     "options": [
+      "מתחיל/ה לגמרי",
+      "קצת ניסיון",
+      "מתרגל/ת קבוע"
+     ],
+     "locked": false
+    },
+    {
+     "id": "times",
+     "text": "מתי נוח לך להגיע?",
+     "default": "on",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "format",
+     "text": "מה מתאים לך?",
+     "default": "off",
+     "options": [
+      "קבוצה",
+      "שיעור פרטי",
+      "אונליין"
+     ],
+     "locked": false
+    },
+    {
+     "id": "notes",
+     "text": "יש משהו שחשוב שנדע מראש?",
+     "default": "off",
+     "options": [],
+     "locked": false
+    },
+    {
+     "id": "name",
+     "text": "איך קוראים לך?",
+     "default": "on",
+     "options": [],
+     "locked": true
+    }
+   ],
+   "setup": [
+    "owner_name"
+   ],
+   "field_max": null
+  }
+ }
+}
